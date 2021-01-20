@@ -1,0 +1,109 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #00C9FF 0%, #a7ffb0 100%);
+    font-family:'Poppins', sans-serif;
+}
+
+body h1{
+    text-align: center;
+    padding-top:5%;
+    padding-bottom: 1em;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#container-input{
+    width:60%;
+    margin:auto;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 3em;
+}
+
+#input{
+    width:90%;
+    font-size: 20px;
+    border: none;
+    padding:0 1em;
+}
+
+#adicionar{
+    width:10%;
+    border: none;
+    background: white;
+    font-size: 23px;
+    cursor:pointer;
+    color: #10bae9;
+}
+
+#adicionar:hover{
+    background-color: #10bae9;
+    color:white;
+}
+
+#container-todo{
+    width:60%;
+    margin:auto;
+    padding-top: 2em;
+}
+
+#todo-lista {
+    list-style: none;
+}
+
+.todo{
+    background-color:white;
+    display:flex;
+    height:40px;
+    margin: 7px 0;
+    transition: all 0.8s ease;
+}
+
+.todo-item{
+    width:90%;
+    font-size: 20px;
+    line-height: 40px;
+    padding:0 1em;
+}
+
+.botão-ok, .botão-excluir{
+    width:5%;
+    background-color: white;
+    cursor:pointer;
+    border:none;
+    font-size: 20px;
+}
+
+.botão-ok{
+    color: rgb(82, 211, 82);
+}
+
+.botão-ok:hover{
+    background-color: rgb(82, 211, 82);
+    color:white;
+}
+
+
+.botão-excluir{
+    color: rgb(245, 84, 84);
+}
+
+.botão-excluir:hover{
+    background-color: rgb(245, 84, 84);
+    color:white;
+}
+
+.fa-trash, .fa-check{
+    pointer-events: none;
+}
+
+.finalizada{
+    opacity:0.4;
+    text-decoration: line-through;
+}
